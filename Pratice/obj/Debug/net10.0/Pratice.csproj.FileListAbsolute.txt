@@ -1,0 +1,14 @@
+C:\Users\KGA1\Desktop\Pratice\Pratice\bin\Debug\net10.0\Pratice.exe
+C:\Users\KGA1\Desktop\Pratice\Pratice\bin\Debug\net10.0\Pratice.deps.json
+C:\Users\KGA1\Desktop\Pratice\Pratice\bin\Debug\net10.0\Pratice.runtimeconfig.json
+C:\Users\KGA1\Desktop\Pratice\Pratice\bin\Debug\net10.0\Pratice.dll
+C:\Users\KGA1\Desktop\Pratice\Pratice\bin\Debug\net10.0\Pratice.pdb
+C:\Users\KGA1\Desktop\Pratice\Pratice\obj\Debug\net10.0\Pratice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KGA1\Desktop\Pratice\Pratice\obj\Debug\net10.0\Pratice.AssemblyInfoInputs.cache
+C:\Users\KGA1\Desktop\Pratice\Pratice\obj\Debug\net10.0\Pratice.AssemblyInfo.cs
+C:\Users\KGA1\Desktop\Pratice\Pratice\obj\Debug\net10.0\Pratice.csproj.CoreCompileInputs.cache
+C:\Users\KGA1\Desktop\Pratice\Pratice\obj\Debug\net10.0\Pratice.dll
+C:\Users\KGA1\Desktop\Pratice\Pratice\obj\Debug\net10.0\refint\Pratice.dll
+C:\Users\KGA1\Desktop\Pratice\Pratice\obj\Debug\net10.0\Pratice.pdb
+C:\Users\KGA1\Desktop\Pratice\Pratice\obj\Debug\net10.0\Pratice.genruntimeconfig.cache
+C:\Users\KGA1\Desktop\Pratice\Pratice\obj\Debug\net10.0\ref\Pratice.dll
