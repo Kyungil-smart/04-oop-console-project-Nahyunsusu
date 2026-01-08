@@ -30,6 +30,7 @@ public class PlayerCharacter : GameObject
     {
         if (InputManager.GetKey(ConsoleKey.I))
         {
+            Console.Clear();
             HandleControl();
         }
         

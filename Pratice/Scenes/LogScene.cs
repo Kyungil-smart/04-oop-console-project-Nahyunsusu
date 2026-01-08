@@ -16,5 +16,8 @@ public class LogScene : Scene
     }
 
     public override void Enter() { }
-    public override void Exit() { }
+    public override void Exit() 
+    {
+        Console.Clear();
+    }
 }

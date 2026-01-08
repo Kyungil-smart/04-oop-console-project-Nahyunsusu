@@ -51,6 +51,7 @@ public class TitleScene : Scene
 
     public override void Exit()
     {
+        Console.Clear();
     }
 
     public void GameQuit()

@@ -16,5 +16,7 @@ public class StoryScene : Scene
 
     public override void Exit()
     {
+        Console.Clear();
+
     }
 }

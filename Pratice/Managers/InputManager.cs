@@ -1,44 +1,45 @@
-﻿
-
-public static class InputManager
+﻿public static class InputManager
 {
-    private static ConsoleKey _current;
-
-    private static readonly ConsoleKey[] _keys =
+    private static ConsoleKey _currentKey = ConsoleKey.Clear;
+    private static readonly ConsoleKey[] Keys =
     {
-        ConsoleKey.UpArrow, 
-        ConsoleKey.DownArrow, 
-        ConsoleKey.LeftArrow, 
-        ConsoleKey.RightArrow,
-        ConsoleKey.Enter,
-        ConsoleKey.I,
-        ConsoleKey.L,
-        ConsoleKey.T
+        ConsoleKey.UpArrow, ConsoleKey.DownArrow, ConsoleKey.LeftArrow, ConsoleKey.RightArrow,
+        ConsoleKey.Enter, ConsoleKey.I, ConsoleKey.L, ConsoleKey.T
     };
 
     public static bool GetKey(ConsoleKey input)
     {
-        return _current == input;
+        return _currentKey == input;
     }
 
-    // GameManager에서만 호출
+    // GameManager의 Update 루프에서 매번 호출
     public static void GetUserInput()
     {
-        ConsoleKey input = Console.ReadKey(true).Key;
-        _current = ConsoleKey.Clear;
+        // 1. 이전 프레임의 입력 초기화
+        _currentKey = ConsoleKey.Clear;
 
-        foreach (ConsoleKey key in _keys)
+        // 2. 키 입력이 있는 경우에만 처리 (비블로킹)
+        if (Console.KeyAvailable)
         {
-            if (key == input)
+            // 실제 키를 읽어옴
+            ConsoleKeyInfo inputInfo = Console.ReadKey(true);
+            ConsoleKey input = inputInfo.Key;
+
+            // 3. 허용된 키 목록에 있는지 확인
+            foreach (ConsoleKey key in Keys)
             {
-                _current = input;
-                break;
+                if (key == input)
+                {
+                    _currentKey = input;
+                    break;
+                }
             }
         }
+        // else일 때는 아무것도 하지 않음 -> _currentKey는 Clear 상태로 유지되어 루프가 계속 돔
     }
 
     public static void ResetKey()
     {
-        _current = ConsoleKey.Clear;
+        _currentKey = ConsoleKey.Clear;
     }
 }

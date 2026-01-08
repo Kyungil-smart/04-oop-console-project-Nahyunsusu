@@ -27,9 +27,9 @@ public class TownScene : Scene
         _player.Position = new Vector(4, 2);
         _field[_player.Position.Y, _player.Position.X].OnTileObject = _player;
 
-        _field[3, 5].OnTileObject = new Potion() {Name = "Potion1"};
+        _field[3,  5].OnTileObject = new Potion() {Name = "Potion1"};
         _field[2, 15].OnTileObject = new Potion() {Name = "Potion2"};
-        _field[7, 3].OnTileObject = new Potion() {Name = "Potion3"};
+        _field[7,  3].OnTileObject = new Potion() {Name = "Potion3"};
         _field[9, 19].OnTileObject = new Potion() {Name = "Potion4"};
         
         Debug.Log("타운 씬 진입");
@@ -50,6 +50,8 @@ public class TownScene : Scene
     {
         _field[_player.Position.Y, _player.Position.X].OnTileObject = null;
         _player.Field = null;
+        Console.Clear();
+
     }
 
     private void PrintField()
