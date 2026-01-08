@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KGA1\\Desktop\\Pratice\\Pratice\\Pratice.csproj",
+      "projectUniqueName": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Pratice.csproj",
       "projectName": "Pratice",
-      "projectPath": "C:\\Users\\KGA1\\Desktop\\Pratice\\Pratice\\Pratice.csproj",
+      "projectPath": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Pratice.csproj",
       "packagesPath": "C:\\Users\\KGA1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KGA1\\Desktop\\Pratice\\Pratice\\obj\\",
+      "outputPath": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
