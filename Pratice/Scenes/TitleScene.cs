@@ -3,6 +3,7 @@
 public class TitleScene : Scene
 {
     private MenuList _titleMenu;
+    private Map map;
 
     public TitleScene()
     {
@@ -15,6 +16,7 @@ public class TitleScene : Scene
         _titleMenu.Add("게임 시작", GameStart);
         _titleMenu.Add("크레딧", ViewCredits);
         _titleMenu.Add("게임 종료", GameQuit);
+
     }
 
     public override void Enter()
@@ -47,6 +49,7 @@ public class TitleScene : Scene
         GameManager.GameName.Print(ConsoleColor.Yellow);
         
         _titleMenu.Render(8, 5);
+
     }
 
     public override void Exit()

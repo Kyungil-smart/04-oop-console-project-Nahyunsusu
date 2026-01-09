@@ -1,32 +1,35 @@
-﻿
-
-using System.ComponentModel.Design;
-
-public struct Tile
+﻿public struct Tile
 {
-    // 타일 위에 뭐가 올라와있는지?
     public GameObject OnTileObject { get; set; }
-    // 타일 위에 올라서면 발생해야 하는 이벤트
     public event Action OnStepPlayer;
-    // 자신의 좌표
     public Vector Position { get; set; }
-    
+
     public bool HasGameObject => OnTileObject != null;
+
+    public bool IsWall = false;
 
     public Tile(Vector position)
     {
         Position = position;
+        OnTileObject = null;
+        OnStepPlayer = null;
     }
 
     public void Print()
     {
-        if(HasGameObject)
+        if (HasGameObject)
         {
             OnTileObject.Symbol.Print();
+            IsWall = true;
         }
         else
         {
             ' '.Print();
         }
+    }
+
+    public void MarkAsBorder()
+    {
+        OnTileObject = new Wall(Position);
     }
 }

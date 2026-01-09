@@ -50,6 +50,9 @@ public class GameManager
 
     private void Init()
     {
+        Console.InputEncoding = System.Text.Encoding.UTF8;
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
         IsGameOver = false;
         SceneManager.OnChangeScene += InputManager.ResetKey;
         _player = new PlayerCharacter();
@@ -58,8 +61,9 @@ public class GameManager
         SceneManager.AddScene("Story", new StoryScene());
         SceneManager.AddScene("Town", new TownScene(_player));
         SceneManager.AddScene("Log", new LogScene());
+        SceneManager.AddScene("Test", new TestScene());
 
-        SceneManager.Change("Title");
+        SceneManager.Change("Test");
 
         Debug.Log("게임 데이터 초기화 완료");
     }

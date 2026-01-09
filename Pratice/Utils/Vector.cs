@@ -18,4 +18,10 @@ public struct Vector
     
     public static Vector operator +(Vector a, Vector b)
         => new Vector(a.X + b.X, a.Y + b.Y);
+
+    public static bool operator ==(Vector a, Vector b) => a.X == b.X && a.Y == b.Y;
+    public static bool operator !=(Vector a, Vector b) => !(a == b);
+
+    public override bool Equals(object obj) => obj is Vector other && this == other;
+    public override int GetHashCode() => HashCode.Combine(X, Y);
 }
