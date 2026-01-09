@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 using System.Text;
 
 public class Player : GameObject
 {
     public ObservableProperty<int> Health = new ObservableProperty<int>(5);
-    private string _healthGauge;
-
     public bool IsActiveControl { get; private set; }
 
     public Vector  curPos;
@@ -23,9 +22,6 @@ public class Player : GameObject
 
         IsActiveControl = true;
 
-        Health.AddListener(SetHealthGauge);
-        _healthGauge = "■■■■■";
-
         curPos = Position;
     }
 
@@ -33,36 +29,27 @@ public class Player : GameObject
     {
         nextPos = Position;
 
-        if (InputManager.GetKey(ConsoleKey.UpArrow)) nextPos += Vector.Up;
-        else if (InputManager.GetKey(ConsoleKey.DownArrow)) nextPos += Vector.Down;
-        else if (InputManager.GetKey(ConsoleKey.LeftArrow)) nextPos += Vector.Left;
-        else if (InputManager.GetKey(ConsoleKey.RightArrow)) nextPos += Vector.Right;
+        if (InputManager.GetKey(ConsoleKey.UpArrow)) 
+            nextPos += Vector.Up;
+        else if (InputManager.GetKey(ConsoleKey.DownArrow)) 
+            nextPos += Vector.Down;
+        else if (InputManager.GetKey(ConsoleKey.LeftArrow)) 
+            nextPos += Vector.Left;
+        else if (InputManager.GetKey(ConsoleKey.RightArrow)) 
+            nextPos += Vector.Right;
+
+    }
+
+    public void Render()
+    {
+        Console.SetCursorPosition(Position.X, Position.Y);
+        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.Write(Symbol);
+        Console.ResetColor();
     }
 
     public void ConfirmMove()
     {
         Position = nextPos;
-    }
-
-    public void SetHealthGauge(int health)
-    {
-        switch (health)
-        {
-            case 5:
-                _healthGauge = "■■■■■";
-                break;
-            case 4:
-                _healthGauge = "■■■■□";
-                break;
-            case 3:
-                _healthGauge = "■■■□□";
-                break;
-            case 2:
-                _healthGauge = "■■□□□";
-                break;
-            case 1:
-                _healthGauge = "■□□□□";
-                break;
-        }
     }
 }

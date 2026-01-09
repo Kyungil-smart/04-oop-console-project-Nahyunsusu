@@ -31,5 +31,14 @@
     public void MarkAsBorder()
     {
         OnTileObject = new Wall(Position);
+        IsWall = true;
+    }
+
+    public char GetSymbol()
+    {
+        if (OnTileObject != null)
+            return OnTileObject.Symbol;
+
+        return ' '; // 빈 타일은 공백
     }
 }

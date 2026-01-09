@@ -1,19 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Text;
-internal class TestScene : Scene
+public class TestScene : Scene
 {
-    int Xsize = 20;
+    int Xsize = 40;
     int Ysize = 20;
-    Map map = new Map(20, 20);
+    Map map;
     Player player = new Player();
+    Enemy Enemy;
+
 
     public override void Enter()
     {
+        map = new Map(Xsize, Ysize);
         map.Init();
 
         player.Position = new Vector(1, 1);
         player.nextPos = player.Position;
+
+        Enemy = new Enemy();
 
         Console.WriteLine("TestScene Enter");
     }
@@ -28,17 +34,23 @@ internal class TestScene : Scene
             {
                 player.ConfirmMove();
             }
+            else
+            {
+                player.nextPos = player.Position;
+            }
         }
+
+        double deltaTime = 1000.0 / 60.0;
+        Enemy.Update(player.Position, map, deltaTime);
     }
 
     public override void Render()
     {
         map.Render();
 
-        Console.SetCursorPosition(player.Position.X, player.Position.Y);
-        Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.Write(player.Symbol);
-        Console.ResetColor();
+        player.Render();
+
+        Enemy.Render();
     }
 
 

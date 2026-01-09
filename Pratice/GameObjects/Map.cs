@@ -1,4 +1,6 @@
-﻿public class Map
+﻿using System.Text;
+
+public class Map
 {
     private Tile[,] _field;
     int Xsize;
@@ -41,14 +43,18 @@
     {
         Console.SetCursorPosition(0, 0);
 
+        StringBuilder sb = new StringBuilder();
+
         for (int y = 0; y < Ysize; y++)
         {
             for (int x = 0; x < Xsize; x++)
             {
-                _field[y, x].Print();
+                sb.Append(_field[y, x].GetSymbol());
             }
-            Console.WriteLine();
+            sb.AppendLine();
         }
+
+        Console.Write(sb.ToString());
     }
 
     public bool CheckWall(Vector pos)
