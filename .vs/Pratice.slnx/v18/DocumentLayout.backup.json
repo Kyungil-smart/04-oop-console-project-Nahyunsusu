@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,11 +82,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Enemy.cs",
+              "RelativeDocumentMoniker": "Pratice\\GameObjects\\Enemy.cs",
+              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Enemy.cs",
+              "RelativeToolTip": "Pratice\\GameObjects\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:51:41.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Player.cs",
               "RelativeDocumentMoniker": "Pratice\\GameObjects\\Player.cs",
@@ -95,12 +112,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Map.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Map.cs",
               "RelativeDocumentMoniker": "Pratice\\GameObjects\\Map.cs",
-              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Map.cs*",
-              "RelativeToolTip": "Pratice\\GameObjects\\Map.cs*",
+              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Map.cs",
+              "RelativeToolTip": "Pratice\\GameObjects\\Map.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T08:50:27.595Z",
@@ -108,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TestScene.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Scenes\\TestScene.cs",
               "RelativeDocumentMoniker": "Pratice\\Scenes\\TestScene.cs",
@@ -121,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Wall.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Wall.cs",
               "RelativeDocumentMoniker": "Pratice\\Utils\\Wall.cs",
@@ -134,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Pratice\\Managers\\GameManager.cs",
@@ -147,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SceneManager.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Managers\\SceneManager.cs",
               "RelativeDocumentMoniker": "Pratice\\Managers\\SceneManager.cs",
@@ -160,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Inventory.cs",
               "RelativeDocumentMoniker": "Pratice\\Utils\\Inventory.cs",
@@ -172,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "StoryScene.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Scenes\\StoryScene.cs",
               "RelativeDocumentMoniker": "Pratice\\Scenes\\StoryScene.cs",
@@ -184,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Scene.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Scenes\\Scene.cs",
               "RelativeDocumentMoniker": "Pratice\\Scenes\\Scene.cs",
@@ -196,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Managers\\InputManager.cs",
               "RelativeDocumentMoniker": "Pratice\\Managers\\InputManager.cs",
@@ -208,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Item.cs",
               "RelativeDocumentMoniker": "Pratice\\GameObjects\\Item.cs",
@@ -220,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ObservablewProperty.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\ObservablewProperty.cs",
               "RelativeDocumentMoniker": "Pratice\\Utils\\ObservablewProperty.cs",
@@ -231,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "_Scene.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Scenes\\_Scene.cs",
               "RelativeDocumentMoniker": "Pratice\\Scenes\\_Scene.cs",
@@ -249,7 +266,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerCharacter.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\PlayerCharacter.cs",
               "RelativeDocumentMoniker": "Pratice\\GameObjects\\PlayerCharacter.cs",
@@ -262,20 +279,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Tile.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Tile.cs",
               "RelativeDocumentMoniker": "Pratice\\Utils\\Tile.cs",
               "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Tile.cs",
               "RelativeToolTip": "Pratice\\Utils\\Tile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwCAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwCAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-09T01:40:02.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TitleScene.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Scenes\\TitleScene.cs",
               "RelativeDocumentMoniker": "Pratice\\Scenes\\TitleScene.cs",
@@ -288,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TownScene.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Scenes\\TownScene.cs",
               "RelativeDocumentMoniker": "Pratice\\Scenes\\TownScene.cs",
