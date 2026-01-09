@@ -5,7 +5,19 @@ public class TownScene : Scene
     private Tile[,] _field = new Tile[10, 20];
     private PlayerCharacter _player;
     
-    public TownScene(PlayerCharacter player) => Init(player);
+    public TownScene(PlayerCharacter player)
+    {
+        Init(player);
+
+        for (int y = 0; y < _field.GetLength(0); y++)
+        {
+            for (int x = 0; x < _field.GetLength(1); x++)
+            {
+                Vector pos = new Vector(x, y);
+                _field[y, x] = new Tile(pos);
+            }
+        }
+    }
 
     public void Init(PlayerCharacter player)
     {
