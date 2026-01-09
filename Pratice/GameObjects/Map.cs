@@ -6,6 +6,8 @@ public class Map
     int Xsize;
     int Ysize;
 
+
+
     public Map(int X, int Y)
     {
         Xsize = X;

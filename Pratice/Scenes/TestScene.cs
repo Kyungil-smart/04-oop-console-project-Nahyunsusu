@@ -10,7 +10,6 @@ public class TestScene : Scene
     Player player = new Player();
     Enemy Enemy;
 
-
     public override void Enter()
     {
         map = new Map(Xsize, Ysize);
@@ -42,6 +41,11 @@ public class TestScene : Scene
 
         double deltaTime = 1000.0 / 60.0;
         Enemy.Update(player.Position, map, deltaTime);
+
+        if(player.nextPos == Enemy.curPos)
+        {
+            player.IsActiveControl = false;
+        }
     }
 
     public override void Render()

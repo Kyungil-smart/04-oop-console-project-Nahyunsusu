@@ -6,7 +6,7 @@ using System.Text;
 public class Player : GameObject
 {
     public ObservableProperty<int> Health = new ObservableProperty<int>(5);
-    public bool IsActiveControl { get; private set; }
+    public bool IsActiveControl { get; set; }
 
     public Vector  curPos;
     public Vector nextPos;
@@ -28,16 +28,17 @@ public class Player : GameObject
     public void Update()
     {
         nextPos = Position;
-
-        if (InputManager.GetKey(ConsoleKey.UpArrow)) 
-            nextPos += Vector.Up;
-        else if (InputManager.GetKey(ConsoleKey.DownArrow)) 
-            nextPos += Vector.Down;
-        else if (InputManager.GetKey(ConsoleKey.LeftArrow)) 
-            nextPos += Vector.Left;
-        else if (InputManager.GetKey(ConsoleKey.RightArrow)) 
-            nextPos += Vector.Right;
-
+        if(IsActiveControl)
+        {
+            if (InputManager.GetKey(ConsoleKey.UpArrow))
+                nextPos += Vector.Up;
+            else if (InputManager.GetKey(ConsoleKey.DownArrow))
+                nextPos += Vector.Down;
+            else if (InputManager.GetKey(ConsoleKey.LeftArrow))
+                nextPos += Vector.Left;
+            else if (InputManager.GetKey(ConsoleKey.RightArrow))
+                nextPos += Vector.Right;
+        }
     }
 
     public void Render()

@@ -8,7 +8,7 @@ public class Enemy : GameObject
     public Vector nextPos;
 
     private double moveTimer = 0;      
-    private double moveInterval = 100; 
+    private double moveInterval = 100   ; 
     public Enemy()
     {
         Init();
