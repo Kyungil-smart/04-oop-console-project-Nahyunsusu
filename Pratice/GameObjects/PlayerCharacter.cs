@@ -37,13 +37,12 @@ public class PlayerCharacter : GameObject
         if (InputManager.GetKey(ConsoleKey.UpArrow))
         {
             Move(Vector.Up);
-            _inventory.SelectUp();
         }
 
         if (InputManager.GetKey(ConsoleKey.DownArrow))
         {
             Move(Vector.Down);
-            _inventory.SelectDown();
+            Move(Vector.Right);
         }
 
         if (InputManager.GetKey(ConsoleKey.LeftArrow))

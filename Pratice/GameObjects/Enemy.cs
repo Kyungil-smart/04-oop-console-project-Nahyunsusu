@@ -7,8 +7,8 @@ public class Enemy : GameObject
     public Vector  curPos;
     public Vector nextPos;
 
-    private double _moveTimer = 0;      
-    private double _moveInterval = 50; 
+    private double moveTimer = 0;      
+    private double moveInterval = 100; 
     public Enemy()
     {
         Init();
@@ -25,12 +25,12 @@ public class Enemy : GameObject
 
     public void Update(Vector playerPos, Map map, double deltaTime)
     {
-        _moveTimer += deltaTime;
+        moveTimer += deltaTime;
 
-        if (_moveTimer >= _moveInterval)
+        if (moveTimer >= moveInterval)
         {
             BFS(playerPos, map);
-            _moveTimer = 0;     
+            moveTimer = 0;     
         }
     }
 
