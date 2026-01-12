@@ -9,6 +9,7 @@ public class TestScene : Scene
     Map map;
     Player player = new Player();
     Enemy Enemy;
+    Point point;
 
     public override void Enter()
     {
@@ -19,6 +20,9 @@ public class TestScene : Scene
         player.nextPos = player.Position;
 
         Enemy = new Enemy();
+
+        point = new Point();
+        point.Init(ref map);
 
         Console.WriteLine("TestScene Enter");
     }
@@ -46,6 +50,8 @@ public class TestScene : Scene
         {
             player.IsActiveControl = false;
         }
+
+        point.Update(player);
     }
 
     public override void Render()
@@ -55,6 +61,8 @@ public class TestScene : Scene
         player.Render();
 
         Enemy.Render();
+
+        point.Render();
     }
 
     public override void Exit()
