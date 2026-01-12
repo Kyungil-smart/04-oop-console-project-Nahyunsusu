@@ -40,6 +40,13 @@
         OnChangeScene?.Invoke();
     }
 
+    public static void Remove(string key)
+    {
+        if (!_scenes.ContainsKey(key)) return;
+
+        _scenes.Remove(key);
+    }
+
     public static void Update()
     {
         Current?.Update();

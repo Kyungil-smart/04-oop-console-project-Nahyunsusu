@@ -34,6 +34,11 @@
         IsWall = true;
     }
 
+    public void ClearBorder()
+    {
+        IsWall = false;
+    }
+
     public char GetSymbol()
     {
         if (OnTileObject != null)
