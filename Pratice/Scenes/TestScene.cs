@@ -49,6 +49,8 @@ public class TestScene : Scene
         if(player.nextPos == Enemy.curPos)
         {
             player.IsActiveControl = false;
+            Thread.Sleep(100);
+
         }
 
         point.Update(player);

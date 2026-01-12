@@ -11,6 +11,7 @@ public class Point : GameObject
 
     Map map;
 
+    Score score = new Score();
     public void Init(ref Map map)
     {
         Symbol = 'O';
@@ -22,6 +23,7 @@ public class Point : GameObject
 
         this.map = map;
         UpdatePos();
+
     }
 
     public void Update(Player player)
@@ -35,6 +37,8 @@ public class Point : GameObject
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.Write(Symbol);
         Console.ResetColor();
+
+        score.Render(ref map);
     }
 
     void UpdatePos()
@@ -55,6 +59,7 @@ public class Point : GameObject
         if (Position == player.Position)
         {
             UpdatePos();
+            score.PlusScore();
         }
 
     }
