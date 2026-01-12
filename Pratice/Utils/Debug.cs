@@ -1,6 +1,4 @@
-﻿
-
-public static class Debug
+﻿public static class Debug
 {
     public enum LogType
     {

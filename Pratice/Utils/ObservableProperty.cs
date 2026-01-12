@@ -1,6 +1,4 @@
-﻿
-
-public class ObservableProperty<T> where T : struct
+﻿public class ObservableProperty<T> where T : struct
 {
     private T _value;
 

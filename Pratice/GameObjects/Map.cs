@@ -3,10 +3,8 @@
 public class Map
 {
     private Tile[,] _field;
-    int Xsize;
-    int Ysize;
-
-
+    public int Xsize { get; private set; }
+    public int Ysize { get; private set; }
 
     public Map(int X, int Y)
     {
@@ -27,7 +25,6 @@ public class Map
 
     public void Init()
     {
-        // 1. 기본 테두리 생성
         for (int x = 0; x < Xsize; x++)
         {
             _field[0, x].MarkAsBorder();

@@ -1,6 +1,4 @@
-﻿
-
-public struct Ractangle
+﻿public struct Ractangle
 {
     public int X;
     public int Y;

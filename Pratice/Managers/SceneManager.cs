@@ -1,6 +1,4 @@
-﻿
-
-public static class SceneManager
+﻿public static class SceneManager
 {
     public static Action OnChangeScene;
     public static Scene Current { get; private set; }

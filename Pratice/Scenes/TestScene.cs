@@ -57,7 +57,6 @@ public class TestScene : Scene
         Enemy.Render();
     }
 
-
     public override void Exit()
     {
     }

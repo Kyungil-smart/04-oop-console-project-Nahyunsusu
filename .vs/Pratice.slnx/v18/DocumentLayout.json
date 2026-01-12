@@ -3,52 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\scenes\\testscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\scenes\\testscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\utils\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\utils\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\utils\\vector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\utils\\vector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\utils\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\utils\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\utils\\textextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\utils\\textextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\utils\\ractangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\utils\\ractangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\utils\\observableproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\utils\\observableproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\utils\\menulist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\utils\\menulist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\utils\\debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\utils\\debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\scenes\\testscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\scenes\\testscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\scenes\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\scenes\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\managers\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|c:\\users\\kga1\\desktop\\04-oop-console-project-nahyunsusu\\pratice\\gameobjects\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400235B2-0836-54AF-56F5-3ED1BBAB57C2}|Pratice\\Pratice.csproj|solutionrelative:pratice\\gameobjects\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\ObservablewProperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,74 +99,168 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Program.cs",
+              "RelativeDocumentMoniker": "Pratice\\Program.cs",
+              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Program.cs",
+              "RelativeToolTip": "Pratice\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:44:03.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vector.cs",
+              "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Vector.cs",
+              "RelativeDocumentMoniker": "Pratice\\Utils\\Vector.cs",
+              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Vector.cs",
+              "RelativeToolTip": "Pratice\\Utils\\Vector.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:43:51.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TextExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\TextExtensions.cs",
+              "RelativeDocumentMoniker": "Pratice\\Utils\\TextExtensions.cs",
+              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\TextExtensions.cs",
+              "RelativeToolTip": "Pratice\\Utils\\TextExtensions.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:43:30.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ractangle.cs",
+              "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Ractangle.cs",
+              "RelativeDocumentMoniker": "Pratice\\Utils\\Ractangle.cs",
+              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Ractangle.cs",
+              "RelativeToolTip": "Pratice\\Utils\\Ractangle.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:43:18.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ObservableProperty.cs",
+              "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\ObservableProperty.cs",
+              "RelativeDocumentMoniker": "Pratice\\Utils\\ObservableProperty.cs",
+              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\ObservableProperty.cs",
+              "RelativeToolTip": "Pratice\\Utils\\ObservableProperty.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:43:11.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuList.cs",
+              "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\MenuList.cs",
+              "RelativeDocumentMoniker": "Pratice\\Utils\\MenuList.cs",
+              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\MenuList.cs",
+              "RelativeToolTip": "Pratice\\Utils\\MenuList.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAIwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:42:59.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Debug.cs",
+              "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Debug.cs",
+              "RelativeDocumentMoniker": "Pratice\\Utils\\Debug.cs",
+              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Debug.cs",
+              "RelativeToolTip": "Pratice\\Utils\\Debug.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:42:50.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Point.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Point.cs",
               "RelativeDocumentMoniker": "Pratice\\GameObjects\\Point.cs",
               "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Point.cs",
               "RelativeToolTip": "Pratice\\GameObjects\\Point.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-09T07:35:16.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Player.cs",
               "RelativeDocumentMoniker": "Pratice\\GameObjects\\Player.cs",
               "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Player.cs",
               "RelativeToolTip": "Pratice\\GameObjects\\Player.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwAoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T06:35:18.264Z"
+              "WhenOpened": "2026-01-09T06:35:18.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "TestScene.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Scenes\\TestScene.cs",
               "RelativeDocumentMoniker": "Pratice\\Scenes\\TestScene.cs",
               "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Scenes\\TestScene.cs",
               "RelativeToolTip": "Pratice\\Scenes\\TestScene.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAA3wEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-09T06:16:23.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Enemy.cs",
               "RelativeDocumentMoniker": "Pratice\\GameObjects\\Enemy.cs",
               "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Enemy.cs",
               "RelativeToolTip": "Pratice\\GameObjects\\Enemy.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwFMAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T06:10:04.921Z"
+              "WhenOpened": "2026-01-09T06:10:04.921Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Tile.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Tile.cs",
               "RelativeDocumentMoniker": "Pratice\\Utils\\Tile.cs",
               "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Tile.cs",
               "RelativeToolTip": "Pratice\\Utils\\Tile.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvyEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T06:05:10.365Z"
+              "WhenOpened": "2026-01-09T06:05:10.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "Map.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Map.cs",
               "RelativeDocumentMoniker": "Pratice\\GameObjects\\Map.cs",
               "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\Map.cs",
               "RelativeToolTip": "Pratice\\GameObjects\\Map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAwwBsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T08:50:27.595Z",
               "EditorCaption": ""
@@ -146,51 +268,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Wall.cs",
+              "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Wall.cs",
+              "RelativeDocumentMoniker": "Pratice\\Utils\\Wall.cs",
+              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Wall.cs",
+              "RelativeToolTip": "Pratice\\Utils\\Wall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T01:49:33.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "GameObject.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\GameObject.cs",
               "RelativeDocumentMoniker": "Pratice\\GameObjects\\GameObject.cs",
               "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\GameObjects\\GameObject.cs",
               "RelativeToolTip": "Pratice\\GameObjects\\GameObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-09T03:59:09.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Wall.cs",
-              "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Wall.cs",
-              "RelativeDocumentMoniker": "Pratice\\Utils\\Wall.cs",
-              "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\Wall.cs",
-              "RelativeToolTip": "Pratice\\Utils\\Wall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T01:49:33.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Pratice\\Managers\\GameManager.cs",
               "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Managers\\GameManager.cs",
               "RelativeToolTip": "Pratice\\Managers\\GameManager.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T07:36:26.434Z"
+              "WhenOpened": "2026-01-08T07:36:26.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SceneManager.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Managers\\SceneManager.cs",
               "RelativeDocumentMoniker": "Pratice\\Managers\\SceneManager.cs",
               "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Managers\\SceneManager.cs",
               "RelativeToolTip": "Pratice\\Managers\\SceneManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T01:58:31.992Z"
+              "WhenOpened": "2026-01-09T01:58:31.992Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -202,23 +327,25 @@
               "RelativeToolTip": "Pratice\\Scenes\\Scene.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T08:24:13.756Z"
+              "WhenOpened": "2026-01-08T08:24:13.756Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Managers\\InputManager.cs",
               "RelativeDocumentMoniker": "Pratice\\Managers\\InputManager.cs",
               "ToolTip": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Managers\\InputManager.cs",
               "RelativeToolTip": "Pratice\\Managers\\InputManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T07:38:48.811Z"
+              "WhenOpened": "2026-01-08T07:38:48.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "ObservablewProperty.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Utils\\ObservablewProperty.cs",
               "RelativeDocumentMoniker": "Pratice\\Utils\\ObservablewProperty.cs",
@@ -229,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "_Scene.cs",
               "DocumentMoniker": "C:\\Users\\KGA1\\Desktop\\04-oop-console-project-Nahyunsusu\\Pratice\\Scenes\\_Scene.cs",
               "RelativeDocumentMoniker": "Pratice\\Scenes\\_Scene.cs",

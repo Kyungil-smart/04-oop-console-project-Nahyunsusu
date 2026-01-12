@@ -1,6 +1,4 @@
-﻿
-
-public class MenuList
+﻿public class MenuList
 {
     private List<(string text, Action action)> _menus;
     private int _currentIndex;
@@ -28,7 +26,6 @@ public class MenuList
                 _maxLength = textWidth;
             }
         }
-
         _outline = new Ractangle(width: _maxLength + 4, height: _menus.Count + 2);
     }
 

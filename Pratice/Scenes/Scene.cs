@@ -1,6 +1,4 @@
-﻿
-
-public abstract class Scene
+﻿public abstract class Scene
 {
     public abstract void Enter();
     public abstract void Update();

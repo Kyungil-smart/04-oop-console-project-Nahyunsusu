@@ -1,6 +1,4 @@
-﻿
-
-public static class TextExtensions
+﻿public static class TextExtensions
 {
     public static void Print(this string text, ConsoleColor color = ConsoleColor.Gray)
     {
