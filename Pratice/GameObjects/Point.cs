@@ -26,9 +26,9 @@ public class Point : GameObject
 
     }
 
-    public void Update(Player player)
+    public void Update(Player player, ref Enemy enemy)
     {
-        CheckPlayer(player);
+        CheckPlayer(player , ref enemy);
     }
 
     public void Render()
@@ -54,12 +54,13 @@ public class Point : GameObject
         }
     }
 
-    public void CheckPlayer(Player player)
+    public void CheckPlayer(Player player, ref Enemy enemy)
     {
         if (Position == player.Position)
         {
             UpdatePos();
             score.PlusScore();
+            enemy.MoveFaster();
         }
 
     }

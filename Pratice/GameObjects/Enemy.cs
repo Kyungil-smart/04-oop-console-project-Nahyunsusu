@@ -7,8 +7,15 @@ public class Enemy : GameObject
     public Vector  curPos;
     public Vector nextPos;
 
-    private double moveTimer = 0;      
-    private double moveInterval = 100   ; 
+    private double moveTimer = 0;
+    private double moveInterval = 700;
+
+    public void MoveFaster()
+    {
+        moveInterval -= 10;
+    }
+   
+
     public Enemy()
     {
         Init();

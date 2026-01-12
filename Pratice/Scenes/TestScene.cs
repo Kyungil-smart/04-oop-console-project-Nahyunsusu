@@ -8,7 +8,7 @@ public class TestScene : Scene
     int Ysize = 20;
     Map map;
     Player player = new Player();
-    Enemy Enemy;
+    Enemy enemy;
     Point point;
 
     public override void Enter()
@@ -19,7 +19,7 @@ public class TestScene : Scene
         player.Position = new Vector(1, 1);
         player.nextPos = player.Position;
 
-        Enemy = new Enemy();
+        enemy = new Enemy();
 
         point = new Point();
         point.Init(ref map);
@@ -44,16 +44,17 @@ public class TestScene : Scene
         }
 
         double deltaTime = 1000.0 / 60.0;
-        Enemy.Update(player.Position, map, deltaTime);
+        enemy.Update(player.Position, map, deltaTime);
 
-        if(player.nextPos == Enemy.curPos)
+        if(player.nextPos == enemy.curPos)
         {
             player.IsActiveControl = false;
             Thread.Sleep(100);
+            Console.Clear();
             SceneManager.Change("GameOver");
         }
 
-        point.Update(player);
+        point.Update(player, ref enemy);
     }
 
     public override void Render()
@@ -62,7 +63,7 @@ public class TestScene : Scene
 
         player.Render();
 
-        Enemy.Render();
+        enemy.Render();
 
         point.Render();
     }
