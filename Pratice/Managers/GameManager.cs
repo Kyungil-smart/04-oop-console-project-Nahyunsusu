@@ -45,6 +45,7 @@ public class GameManager
         SceneManager.OnChangeScene += InputManager.ResetKey;
 
         SceneManager.AddScene("Test", new TestScene());
+        SceneManager.AddScene("GameOver", new GameOverScene());
 
         SceneManager.Change("Test");
 

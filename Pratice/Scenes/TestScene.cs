@@ -50,7 +50,7 @@ public class TestScene : Scene
         {
             player.IsActiveControl = false;
             Thread.Sleep(100);
-
+            SceneManager.Change("GameOver");
         }
 
         point.Update(player);
